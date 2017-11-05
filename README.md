@@ -1,12 +1,12 @@
 # Database-Engine
 Database engine based on a hybrid between MySQL and SQLite. Only supports actions on a single table at a time. Approach similar to InnoDB engine.
 
-Steps to run the code:
+### Steps to run the code:
 1. Extract the archive to a local folder
 2. Open eclipse and load the project from the extracted folder
 3. Build and run the code
 
-Supported commands and syntax:
+### Supported commands and syntax:
 
 SHOW DATABASES;
 SHOW TABLES;
@@ -31,7 +31,7 @@ DROP DATABASE database_name;
 
 EXIT; QUIT;
 
-Sample Commands:
+### Sample Commands
 create database warehouse;
 
 create table inventory (part_no int, price double, description text, availability int);
